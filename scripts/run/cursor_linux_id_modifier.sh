@@ -71,9 +71,9 @@ STORAGE_FILE="$CURSOR_CONFIG_DIR/User/globalStorage/storage.json"
 BACKUP_DIR="$CURSOR_CONFIG_DIR/User/globalStorage/backups"
 
 # --- 新增：安装相关变量 ---
-APPIMAGE_SEARCH_DIR="/opt/CursorInstall" # AppImage 搜索目录，可按需修改
-APPIMAGE_PATTERN="Cursor-*.AppImage"     # AppImage 文件名模式
-INSTALL_DIR="/opt/Cursor"                # Cursor 最终安装目录
+APPIMAGE_SEARCH_DIR="/opt" # AppImage 搜索目录，可按需修改
+APPIMAGE_PATTERN="cursor.appimage"     # AppImage 文件名模式
+INSTALL_DIR="/opt"                # Cursor 最终安装目录
 ICON_PATH="/usr/share/icons/cursor.png"
 DESKTOP_FILE="/usr/share/applications/cursor-cursor.desktop"
 # --- 结束：安装相关变量 ---
